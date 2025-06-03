@@ -4,9 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rustc_codegen_spirv = "0.9.0"
-rustc_codegen_spirv-types = "0.9.0"
-spirv-builder = "0.9.0"
-spirv-std = "0.9.0"
-spirv-std-macros = "0.9.0"
-spirv-std-types = "0.9.0"
+rustc_codegen_spirv = "*"
+rustc_codegen_spirv-types = "*"
+spirv-std = "*"
+spirv-std-macros = "*"
+spirv-std-types = "*"
+
+[build-dependencies]
+spirv-builder = "0.9"
